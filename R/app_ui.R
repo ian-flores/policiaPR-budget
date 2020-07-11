@@ -18,7 +18,7 @@ app_ui <- function(request) {
               "Year",
               as.character(2020:2018)
             ),
-            " el presupuesto de la Policia de Puerto Rico fue <b>{{times}}</b> veces {{times_direction}} que el presupuesto de el/la",
+            " el presupuesto de la Policía de Puerto Rico fue <b>{{times}}</b> veces {{times_direction}} que el presupuesto de el/la",
             epoxy:::epoxyInlineClickChoice(
               "program",
               "City Program",
@@ -30,7 +30,7 @@ app_ui <- function(request) {
             " .</p>"
           ),
           br(),
-          HTML("<p>Data: <a href = 'http://www.presupuesto.pr.gov/PRESUPUESTOPROPUESTO2020-2021/Pages/default.aspx'>Oficina de Gerencia y Presupuesto</a>, Codigo: <a href = 'https://github.com/ian-flores/policiaPR-budget'>GitHub</a></p>")
+          HTML("<p>Datos: <a href = 'http://www.presupuesto.pr.gov/PRESUPUESTOPROPUESTO2020-2021/Pages/default.aspx'>Oficina de Gerencia y Presupuesto</a>, Codigo: <a href = 'https://github.com/ian-flores/policiaPR-budget'>GitHub</a></p>")
         )
       )
     )

@@ -1,0 +1,12 @@
+name: policiaPR
+title: policiaPR
+username:
+account: codeforsocial
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2558499
+bundleId: 3378510
+url: https://codeforsocial.shinyapps.io/policiaPR/
+when: 1594429004.30911
+asMultiple: FALSE
+asStatic: FALSE

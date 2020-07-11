@@ -8,7 +8,9 @@ Imports:
     config,
     golem,
     shiny,
-    epoxy
+    epoxy,
+    htmltools,
+    pkgload
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.0

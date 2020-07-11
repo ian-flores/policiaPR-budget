@@ -19,7 +19,7 @@ app_server <- function(input, output, session ) {
   })
   
   times_direction <- reactive({
-    ifelse(police_times() > 1, 'mas grande', 'tan grande como')
+    ifelse(police_times() > 1, 'más grande', 'tan grande como')
   })
   
   output$demo <- epoxy::renderEpoxyHTML(
