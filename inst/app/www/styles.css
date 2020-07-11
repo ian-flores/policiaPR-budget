@@ -1,0 +1,29 @@
+.main-container {
+  position: relative;
+}
+
+.main-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+p {
+  text-align: center;
+}
+
+#demo {
+  font-size: 2em;
+}
+
+:root {
+  --epoxy-inline-clickChoice-color-hover: black;
+  --epoxy-inline-clickChoice-color-focus: black;
+}
+
+.epoxy-inline-clickChoice-input:hover {
+  background-color: #fcf0cb;
+}
