@@ -1,7 +1,7 @@
 ## code to prepare `budget` dataset goes here
 
 library("pdftools")
-library(tidyverse)
+library("tidyverse")
 
 url <- 'http://www.presupuesto.pr.gov/PRESUPUESTOPROPUESTO2020-2021/Tablas%20estadisticas%202/2%20%20Presupuesto%20Consolidado%20por%20Agencia%20A%C3%B1os%20Fiscales%202018-2021.pdf'
 
@@ -83,5 +83,5 @@ police_expenses <- budget %>%
 program_expenses <- budget%>%
   filter(!str_detect(agency_name, 'Poli'))
 
-usethis::use_data(police_expenses, overwrite = TRUE)
-usethis::use_data(program_expenses, overwrite = TRUE)
+usethis::use_data(police_expenses, overwrite = TRUE, internal=TRUE)
+usethis::use_data(program_expenses, overwrite = TRUE, internal=TRUE)
